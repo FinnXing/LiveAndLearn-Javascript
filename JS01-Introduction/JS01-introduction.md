@@ -1,4 +1,4 @@
-[第一天](#第一天)
+[JS01-Introduction](#JS01-Introduction)
 
 
 - [JavaScript 简介](#JavaScript 简介)
@@ -30,7 +30,7 @@
 
     
 
-# 第1天
+# JS01-Introduction
 
 ## JavaScript 简介
 
@@ -252,4 +252,4 @@ console.log(firstName, age, isMarried, name, job)
 
 
 
-🎉 第一天简单的了解一下JS，后面加油继续深入学习。🎉
+🎉 先来简单的了解一下JS，后面加油继续深入学习。🎉

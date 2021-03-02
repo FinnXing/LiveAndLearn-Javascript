@@ -1,9 +1,9 @@
-# 100-Days-Of-Javascript
+# 活到老学到老之Javascript
 
-> 看过[Asabeneh](https://github.com/Asabeneh)大神的[30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)编程挑战后，打算再从头学习一遍JavaScript，把薄弱知识点找补回来，依照 __30-Days-Of-JavaScript__ 定制一个100天的学习计划，加油！
+> 俗话说：活到老，学到老。作为一枚程序猿，需要不断的学习才能不被互联网淘汰。看过[Asabeneh](https://github.com/Asabeneh)大神的[30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)编程挑战后，打算再从头学习一遍JavaScript，把薄弱知识点找补回来。加油！
 
 
-- [第一天](#第一天)
+- [JS01-Introduction](#JS01-Introduction)
 
 
   - [JavaScript简介](#JavaScript简介)
@@ -34,7 +34,7 @@
     - [声明变量](#声明变量)
 
       
-# 第1天
+# JS01-Introduction
 
 ## JavaScript简介
 
@@ -256,4 +256,4 @@ console.log(firstName, age, isMarried, name, job)
 
 
 
-🎉 第一天简单的了解一下JS，后面加油继续深入学习。🎉
+🎉 先来简单的了解一下JS，后面加油继续深入学习。🎉
