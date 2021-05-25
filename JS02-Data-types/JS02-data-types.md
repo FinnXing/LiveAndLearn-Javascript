@@ -70,6 +70,39 @@ if(!car) {
 }
 ```
 #### Boolean
+Boolean（布尔值）类型是JS中使用最频繁的类型之一，有两个字面值：true和false。Boolean类型通常用于存储表示yes或no的值：true意味着“yes，真，正确”，false意味着“no，假，不正确”。这两个布尔值不同于数值，因此true不等于1，false不等于0。下面是给变量赋布尔值的例子：
+
+```
+let found = true;
+let lost = false;
+```
+
+注意，布尔值字面量true和false是区分大小写的，因此True和False（及其他形式的大小混写）是有效的标识符，但不是布尔值。
+
+虽然布尔值只有两个字面值，但是所有其他类型的值都有相应布尔值的等价形式。要将一个其他类型的值转换成布尔值，可以调用特定的Boolean()转型函数：
+```
+let msg = "hello world";
+let msgAsBoolean = Boolean(msg);
+```
+这个例子中，字符串msg被转换为布尔值并保存在变量msgAsBoolean中，Boolean()转型函数可以在任意类型的数据上调用，而且始终返回一个布尔值。具体转化为true还是false取决于数据类型和实际的值。下表总结了不同类型与布尔值之间的转换规则。
+
+| 数据类型 | 转换为true的值 | 转换为false的值 |
+| --- | --- | --- |
+| Boolean | true | false |
+| String | 非空字符串 | ""(空字符串) |
+| Number | 非零数值 | 0、NaN |
+| Object | 任意对象 | null |
+| Undefined | N/A(不存在) | undefined |
+
+以上转换非常重要，在if等控制语句中会自动执行其他类型到布尔值的转换，例如：
+```
+let msg = "Hello World";
+if ( msg ) {
+  console.log("Value is true"); // Value is true
+}
+```
+这个例子中，console.log会打印出”Value is true“，因为字符串msg会自动转换为等价的布尔值true。由于这种自动转换的存在，理解控制语句中使用的是什么变量就非常重要。错误地使用对象而不是布尔值会明显改变应用程序的执行流。
+
 #### Number
 #### String
 #### Symbol
