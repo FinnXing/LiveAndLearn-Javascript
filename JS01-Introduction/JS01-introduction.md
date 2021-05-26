@@ -1,19 +1,16 @@
 [JS01-Introduction](#JS01-Introduction)
 
-
-- [JavaScript 简介](#JavaScript 简介)
+- [JavaScript简介](#JavaScript简介)
 
 - [学习JavaScript需要做哪些准备？](#学习JavaScript需要做哪些准备？)
 
 - [在网页中使用JavaScript](#在网页中使用JavaScript)
-
 
   - [行内脚本](#行内脚本)
   - [内部脚本](#内部脚本)
   - [外部脚本](#外部脚本)
 
 - [数据类型简介](#数据类型简介)
-
 
   - [String](#String)
   - [Number](#Number)
@@ -25,10 +22,7 @@
 
 - [变量](#变量)
 
-
   - [声明变量](#声明变量)
-
-    
 
 # JS01-Introduction
 
